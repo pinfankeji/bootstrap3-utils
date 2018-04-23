@@ -1,7 +1,7 @@
 {
   "name": "Bootstrap3-Utilities",
   "version": "1.0.0",
-  "description": "Bootstrap v3 补充CSS工具库",
+  "description": "Bootstrap3 补充CSS工具库",
   "scripts": {
     "compile": "gulp del:css && gulp scss",
     "dev": "gulp del:css && gulp scss && gulp watch",
