@@ -24,3 +24,12 @@ $spacers: (
 $box-shadow-sm: 0 2px 4px rgba($black, .075) !default;
 $box-shadow: 0 8px 16px rgba($black, .15) !default;
 $box-shadow-lg: 0 16px 48px rgba($black, .175) !default;
+
+// Sizing
+$sizes: (
+        25: 25%,
+        50: 50%,
+        75: 75%,
+        100: 100%,
+        auto: auto
+) !default;
