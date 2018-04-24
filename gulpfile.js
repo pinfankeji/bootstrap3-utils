@@ -65,6 +65,6 @@ gulp.task('build', function () {
         .pipe(replace('{author}', packageConfig.author))
         .pipe(replace('{repository}', packageConfig.repository.url))
         .pipe(replace('{homepage}', packageConfig.homepage))
-        .pipe(replace('{date}', moment().format('YYYY-MM-DD hh:mm:ss')))
+        .pipe(replace('{date}', moment().format('YYYY-MM-DD HH:mm:ss')))
         .pipe(gulp.dest(distDir))
 })
