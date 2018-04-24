@@ -1,5 +1,9 @@
 // Variables
 
+// Colors
+$black: #000000 !default;
+$white: #ffffff !default;
+
 // Fonts
 $font-family-sans-serif: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif !default;
 $font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
@@ -15,3 +19,8 @@ $spacers: (
         4: ($spacer * 1.5),
         5: ($spacer * 3)
 ) !default;
+
+// Shadows
+$box-shadow-sm: 0 2px 4px rgba($black, .075) !default;
+$box-shadow: 0 8px 16px rgba($black, .15) !default;
+$box-shadow-lg: 0 16px 48px rgba($black, .175) !default;
